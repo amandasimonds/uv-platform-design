@@ -1,3 +1,27 @@
+
+
+# Welcome to UV-Platform's sandbox environment for the UIUX Design.
+
+# Getting Started
+
+## Prerequisites
+
+- npm
+```npm install npm@latest -g```
+- Angular
+```npm install -g @angular/cli```
+
+## Installation & Open the Project
+
+1. Clone the repo
+```git clone https://github.com/amandasimonds/uv-platform-design.git```
+2. Install NPM packages
+```npm install```
+3. Serve the project on a local server
+```ng serve --open```
+
+---
+
 # Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
@@ -8,11 +32,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng generate component component-name` to generate a new component.
 
 ## Running unit tests
 
