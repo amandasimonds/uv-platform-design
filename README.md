@@ -1,6 +1,6 @@
 
 
-# Welcome to UV-Platform's sandbox environment for the UIUX Design.
+# Welcome to UV-Platform's UIUX sandbox environment
 
 # Getting Started
 
