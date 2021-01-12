@@ -11,7 +11,7 @@
 - Angular
 ```npm install -g @angular/cli```
 
-## Installation & Open the Project
+## Install & Open the Project
 
 1. Clone the repo
 ```git clone https://github.com/amandasimonds/uv-platform-design.git```
