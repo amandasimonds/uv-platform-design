@@ -36,6 +36,5 @@ import { SearchBarComponent } from './uv-viewer/search-bar/search-bar.component'
   ],
   providers: [],
   bootstrap: [AppComponent],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }
