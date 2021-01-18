@@ -2,7 +2,8 @@
 
 # Welcome to UV-Platform's UIUX sandbox environment
 
-To view the demo online, please visit [amandasimonds.github.io/uv-platform-design](https://amandasimonds.github.io/uv-platform-design).
+### To view the demo online, please visit [amandasimonds.github.io/uv-platform-design](https://amandasimonds.github.io/uv-platform-design).
+---
 
 
 ## Installing Locally
