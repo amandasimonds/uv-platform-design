@@ -16,6 +16,10 @@
       "dom"
     ],
     "paths": {
+      "uv-ui-lib": [
+        "dist/uv-ui-lib/uv-ui-lib",
+        "dist/uv-ui-lib"
+      ]
     }
   }
 }
