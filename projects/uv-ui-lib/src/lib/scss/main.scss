@@ -1,0 +1,38 @@
+//VARIABLES
+
+//COLORS
+$color-white: #ffffff;
+$color-dark-1: #222222;
+$color-secondary-gray: #8694A7;
+
+$default-text-color-black: #32363B;
+
+$highlight-text-color-gray: #EAF1FE;
+
+//STYLING
+$border-default-gray: 1px solid #8694A7;
+$border-light-gray: 1px solid #E6E9ED;
+
+//BASE
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* font-size: 10px; 1rem = 10px*/
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+@import "./typography.scss";
+@import "./btn.scss"
+
+
+
