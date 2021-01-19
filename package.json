@@ -8,6 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "build:scss": "scss-bundle -p scss-bundle.config.json",
+    "build:lib": "ng build uv-ui-lib --prod && npm run build:scss",
     "build-lib": "ng build uv-ui-lib --prod",
     "pack-lib": "cd dist/uv-ui-lib && npm pack",
     "package": "npm run build-lib && npm run pack-lib",
@@ -26,6 +28,7 @@
     "@angular/router": "^11.0.9",
     "cpx": "^1.5.0",
     "rxjs": "~6.6.0",
+    "scss-bundle": "^3.1.2",
     "tslib": "^2.1.0",
     "uv-ui-lib": "0.0.3",
     "zone.js": "~0.10.2"
