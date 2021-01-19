@@ -6,7 +6,7 @@
   top:0;
   width: 100%;
   background-color: #ffffff;
-  border: $border-light-gray;
+  // border: $border-light-gray;
   padding: 14px;
   display: flex;
   justify-content:flex-start;
@@ -31,8 +31,8 @@
   height: 32px;
   width: 90%;
   padding-left:8px;
-  color: $color-secondary-gray;
-  border: $border-light-gray;
+  // color: $color-secondary-gray;
+  // border: $border-light-gray;
   border-right: none;
   border-radius: 3px 0px 0px 3px;
   font-size: 1.4rem;
@@ -42,10 +42,10 @@
 .dropdown{
   width: 10%;
   height: 32px;
-  color: $default-text-color-black;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  border: $border-light-gray;
+  // color: $default-text-color-black;
+  // font-family: "Roboto", sans-serif;
+  // font-weight: 500;
+  // border: $border-light-gray;
   border-radius: 0px 3px 3px 0px;
   font-size: 1.4rem;
   background-color: #f3f7f9;
