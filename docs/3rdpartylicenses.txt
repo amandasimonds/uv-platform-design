@@ -240,6 +240,8 @@ Apache-2.0
  
 
 
+uv-ui-lib
+
 zone.js
 MIT
 The MIT License

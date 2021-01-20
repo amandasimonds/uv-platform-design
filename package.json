@@ -14,7 +14,8 @@
     "build-lib-watch": "ng build uv-ui-lib --prod --watch",
     "pack-lib": "cd dist/uv-ui-lib && npm pack",
     "package": "npm run build-lib && npm run pack-lib",
-    "publish-lib": "cd dist/uv-ui-lib && npm publish"
+    "publish-lib": "cd dist/uv-ui-lib && npm publish",
+    "gh-deploy": "ng build --prod --output-path docs --base-href /uv-platform-design/"
   },
   "private": true,
   "dependencies": {
