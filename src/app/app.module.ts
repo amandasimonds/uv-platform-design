@@ -5,7 +5,6 @@ import { UvUiLibModule } from "../../projects/uv-ui-lib/src/lib/uv-ui-lib.module
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContentLeftComponent } from './data-clustering/content-left/content-left.component';
 import { DataClusteringComponent } from './data-clustering/data-clustering.component';
 import { LoginComponent } from './login/login.component';
 import { StartPageComponent } from './uv-viewer/start-page/start-page.component';
@@ -13,7 +12,6 @@ import { StartPageComponent } from './uv-viewer/start-page/start-page.component'
 @NgModule({
   declarations: [
     AppComponent,
-    ContentLeftComponent,
     DataClusteringComponent,
     LoginComponent,
     StartPageComponent,

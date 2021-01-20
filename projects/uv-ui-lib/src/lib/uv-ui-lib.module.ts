@@ -7,6 +7,7 @@ import { SearchBoxComponent } from './components/search-box/search-box.component
 import { LoginComponent } from './components/login/login.component';
 import { HeaderSbsComponent } from './components/header-sbs/header-sbs.component';
 import { HeaderSbsSubComponent } from './components/header-sbs-sub/header-sbs-sub.component';
+import { ContentSbsLeftComponent } from './components/content-sbs-left/content-sbs-left.component';
 
 
 
@@ -18,7 +19,8 @@ import { HeaderSbsSubComponent } from './components/header-sbs-sub/header-sbs-su
     SearchBoxComponent,
     LoginComponent,
     HeaderSbsComponent,
-    HeaderSbsSubComponent],
+    HeaderSbsSubComponent,
+    ContentSbsLeftComponent],
   imports: [
   ],
   exports: [
@@ -28,7 +30,8 @@ import { HeaderSbsSubComponent } from './components/header-sbs-sub/header-sbs-su
     SearchBoxComponent,
     LoginComponent,
     HeaderSbsComponent,
-    HeaderSbsSubComponent
+    HeaderSbsSubComponent,
+    ContentSbsLeftComponent
   ]
 })
 export class UvUiLibModule { }

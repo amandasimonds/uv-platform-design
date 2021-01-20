@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContentLeftComponent } from './content-left.component';
+import { ContentSbsLeftComponent } from './content-sbs-left.component';
 
-describe('ContentLeftComponent', () => {
-  let component: ContentLeftComponent;
-  let fixture: ComponentFixture<ContentLeftComponent>;
+describe('ContentSbsLeftComponent', () => {
+  let component: ContentSbsLeftComponent;
+  let fixture: ComponentFixture<ContentSbsLeftComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ContentLeftComponent ]
+      declarations: [ ContentSbsLeftComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ContentLeftComponent);
+    fixture = TestBed.createComponent(ContentSbsLeftComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
