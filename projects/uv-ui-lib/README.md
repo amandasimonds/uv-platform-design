@@ -22,9 +22,9 @@ export class AppModule {
 }
 ```
 
-## Installing the SCSS global styles
+## Import global styles
 
-- In `/src/styles.scss` add `@import "~uv-ui-lib/uv-ui-lib.styles";`
+- In `/src/styles.scss` add `@import "~uv-ui-lib/src/lib/scss/_styles.scss";`
 
 ---
 
